@@ -17,7 +17,7 @@ function Contact(props) {
     );
 }
 
-Contact.prototype = {
+Contact.PropTypes = {
     name: PropTypes.string,
     image: PropTypes.string,
     online: PropTypes.bool,
